@@ -1,5 +1,5 @@
-pandas 
-prophet
-pickle
-os
-flask
+pandas==2.2.2
+prophet==1.1.1
+flask==3.0.3
+scikit-learn==1.5.0
+gunicorn==22.0.0
