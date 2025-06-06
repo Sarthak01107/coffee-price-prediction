@@ -1,8 +1,6 @@
-pandas
-prophet
-pystan
-flask
-gunicorn
-pickle
-scikit-learn
-
+pandas==2.2.2
+prophet==1.1.1
+pystan==2.19.1.1
+flask==3.0.3
+gunicorn==22.0.0
+scikit-learn==1.5.0
