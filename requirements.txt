@@ -1,6 +1,8 @@
-pandas==2.2.2
-prophet==1.1.1
-pystan==2.19.1.1
-flask==3.0.3
-gunicorn==22.0.0
-scikit-learn==1.5.0
+Flask
+pandas
+numpy
+prophet # Replaced statsmodels with prophet
+scikit-learn # For train_test_split (if used)
+matplotlib # For plotting in model training script (if needed for local testing)
+joblib # For saving/loading the model
+gunicorn
